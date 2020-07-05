@@ -16,6 +16,7 @@ while True:
     name = cp.get('main-config', 'name') 
     email= cp.get('main-config', 'email') 
     key = cp.get('main-config', 'key') 
+    update_time = cp.get('main-config', 'update_time')
     
     # print(name)
     
@@ -34,5 +35,5 @@ while True:
     
     print("Updated dns record")
 
-    time.sleep(10)
+    time.sleep(int(update_time))
 
