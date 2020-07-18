@@ -16,7 +16,7 @@ class ConfigData:
 class ip:
     def __init__(self, name):
         self.current_ip = requests.get('https://api.ipify.org?format=json').json()["ip"]
-        self.dns_ip = socket.gethostbyname(name)    
+        self.dns_ip = socket.gethostbyname(name)  
 
 def updateIP(email, key, name, ip):
 
