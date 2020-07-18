@@ -1,4 +1,4 @@
-# cloudflare_dynamicdns
+# Cloudflare Dynamic DNS
 
 1. Clone the repo
 2. Rename default_config.cfg to config.cfg
