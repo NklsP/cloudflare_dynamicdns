@@ -4,7 +4,7 @@ WORKDIR /usr/src/app
 
 RUN pip install requests
 
-COPY main.py ./
+COPY app ./
 COPY config.cfg ./
 
 CMD [ "python", "./main.py" ]
